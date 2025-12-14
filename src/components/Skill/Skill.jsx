@@ -1,6 +1,7 @@
 import React from 'react'
 import './Skill.css'
 import { RiTailwindCssFill } from "react-icons/ri"
+import { SiNestjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
@@ -60,6 +61,11 @@ const Skill = () => {
         initial='initial'
         animate='animate'
         className='border-2 border-neutral-300 p-2 text-6xl rounded-md text-green-500 lg:text-8xl'><SiMongodb/></motion.div>
+        <motion.div 
+        variants={iconVariant(1.5)}
+        initial='initial'
+        animate='animate'
+        className='border-2 border-neutral-300 p-2 text-6xl rounded-md text-red-500 lg:text-8xl'><SiNestjs/></motion.div>
       </motion.div>
       <div className='mt-20'>
         <motion.div 
@@ -73,6 +79,7 @@ const Skill = () => {
           <div className='flex gap-5'><p className='text-2xl'>React.js</p><hr  width={"40%"}  className='mt-2 outline-none border-none h-4 bg-gradient-to-r from via-slate-200 to-purple-500 rounded-2xl' /><div className='text-xl'>80%</div></div>
           <div className='flex gap-5 '><p className='text-2xl'>Node.js</p><hr  width={"35%"} className='mt-2 outline-none border-none h-4 bg-gradient-to-r from via-slate-200 to-purple-500 rounded-2xl'/><div className='text-xl'>70%</div></div>
            <div className='flex gap-5 '><p className='text-2xl'>MongoDB</p><hr  width={"35%"} className='mt-2 outline-none border-none h-4 bg-gradient-to-r from via-slate-200 to-purple-500 rounded-2xl'/><div className='text-xl'>80%</div></div>
+            <div className='flex gap-5 '><p className='text-2xl'>Nest Js</p><hr  width={"25%"} className='mt-2 outline-none border-none h-4 bg-gradient-to-r from via-slate-200 to-purple-500 rounded-2xl'/><div className='text-xl'>60%</div></div>
       </motion.div>
   
       </div>

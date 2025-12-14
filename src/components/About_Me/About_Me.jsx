@@ -1,7 +1,7 @@
 import React from 'react'
 import './About_Me.css'
 import { ABOUT_TEXT } from '../../constants'
-import About from '../../assets/me.jpeg'
+import About from '../../assets/IMG_3958.jpg'
 import { motion } from "framer-motion"
 
 
@@ -14,7 +14,7 @@ const About_Me = () => {
          initial={{x:-100,opacity:0}}
          whileInView={{x:0,opacity:1}}
          transition={{duration:1,delay:0.5}}
-        className='flex justify-center lg:w-1/2 mt-5'><img src={About} alt="" className='photo_my'/></motion.div>
+        className='flex justify-center lg:w-1/2 mt-5 '><img src={About} alt="" className='photo_my' /></motion.div>
         <motion.div 
         initial={{x:100,opacity:0}}
         whileInView={{x:0,opacity:1}}

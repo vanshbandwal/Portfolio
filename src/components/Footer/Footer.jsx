@@ -9,17 +9,6 @@ const Footer = () => {
   return (
     <div className='flex flex-col gap-9 items-center mt-24'>
       <motion.div 
-      initial={{x:100,opacity:0}}
-      whileInView={{x:0,opacity:1}}
-      transition={{duration:0.5,delay:0}}
-      className='flex gap-7 lg:gap-10'>
-        <div className='text-3xl border-1 text-black bg-white p-2 rounded-3xl'><CiFacebook/></div>
-        <div className='text-3xl border-1 text-black bg-white p-2 rounded-3xl'><FaInstagram/></div>
-        <div className='text-3xl border-1 text-black bg-white p-2 rounded-3xl'><FaTwitter/></div>
-        <div className='text-3xl border-1 text-black bg-white p-2 rounded-3xl'><CiYoutube/></div>
-        <div className='text-3xl border-1 text-black bg-white p-2 rounded-3xl'><SiGmail/></div>
-      </motion.div>
-      <motion.div 
        initial={{x:-100,opacity:0}}
        whileInView={{x:0,opacity:1}}
        transition={{duration:0.5,delay:0}}
